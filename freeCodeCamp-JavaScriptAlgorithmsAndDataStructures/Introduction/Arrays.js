@@ -21,3 +21,6 @@ console.log(removed); // Maserati
 // .unshift()
 car_brands.unshift(['Cadillac', 'Rolls-Royce']);
 console.log(car_brands); // [ [ 'Cadillac', 'Rolls-Royce' ], 'BMW', 'Mercedes Benz' ]
+
+// .concat()
+console.log([1, 2, 3].concat([4, 5, 6])); // [ 1, 2, 3, 4, 5, 6 ]
