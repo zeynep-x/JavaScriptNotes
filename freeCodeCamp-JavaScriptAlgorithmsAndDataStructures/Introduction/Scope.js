@@ -5,5 +5,6 @@ function myLocalScope() {
     console.log('inside myLocalScope', myVar);
 }
 myLocalScope(); // inside myLocalScope 3
+
 // console.log('outside myLocalScope', myVar);
 // ReferenceError: myVar is not defined
